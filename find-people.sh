@@ -53,7 +53,7 @@ while read line; do
        else
            echo "..send notification..."
            save_notification $code
-           ./telegram "$name is connected to Tecla lan"
+           ./telegram "$name is connected ($1)"
        fi
     else
        echo "... missing!"
