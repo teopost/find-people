@@ -19,3 +19,7 @@ ln -s .telegram.sh ./find-people/telegram.conf
 */10 * * * * cd /home/teopost/find-people; ./find-people.sh >> /home/teopost/find-people/logs/trace.log
 ```
 
+# References
+
+* https://thebackroomtech.com/2010/08/22/determine-ip-address-from-a-mac-address/
+
